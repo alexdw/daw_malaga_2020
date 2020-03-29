@@ -13,7 +13,7 @@
     "babel-plugin-transform-async-functions": "^6.22.0",
     "chai": "^4.2.0",
     "mocha": "^7.1.0",
-    "webpack": "^4.41.6"
+    "webpack": "^4.42.1"
   },
   "scripts": {
     "test": "mocha --require @babel/register --colors --no-timeouts --no-warnings ./test/*.spec.js"
