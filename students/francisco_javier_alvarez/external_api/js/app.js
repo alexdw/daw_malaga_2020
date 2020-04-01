@@ -25,6 +25,6 @@ async function getJokes(e) {
   } catch(e){
     output += `<li>Something went worng</li>`
   }
-  
+
   document.querySelector('.jokes').innerHTML = output
 }
