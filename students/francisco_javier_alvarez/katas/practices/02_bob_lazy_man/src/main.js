@@ -10,6 +10,6 @@ export function countLettersAndDigits(input) {
             cuenta += 1;
         }
     }
-    
+
     return cuenta;
 }
