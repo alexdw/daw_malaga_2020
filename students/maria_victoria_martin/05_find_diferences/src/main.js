@@ -5,3 +5,4 @@ export const differenceInAges = (ages) => {
      return [young, old, old-young]
 }
 
+//hecho
