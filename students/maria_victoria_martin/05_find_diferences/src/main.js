@@ -4,5 +4,3 @@ export const differenceInAges = (ages) => {
   let young = Math.min(...ages)
      return [young, old, old-young]
 }
-
-//hecho
