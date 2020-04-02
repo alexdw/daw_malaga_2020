@@ -1,5 +1,5 @@
-import {expect} from "chai";
-import {init} from "../src/main.js"
+import {assert} from "chai";
+import {sumOfMinimums} from "../src/main.js"
 
 describe("Basic tests", () => {
   it("Testing for [[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]]", () => assert.strictEqual(sumOfMinimums([[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]]), 9));
