@@ -13,5 +13,4 @@ function weird(word) {
       return letter;
    })
   return lettersWeird.join("");
-   // console.log(">>>>>", letters)
 }
