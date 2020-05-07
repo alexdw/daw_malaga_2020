@@ -1,19 +1,15 @@
 export function capitalize(s) {
-  let cadena1 = Array.from(s, (item, i) => {
-      if(i%2===0) {
-        return item.toUpperCase();
-      }
-      return item;
-  }).join("");
+  let first = Array.from(s);
+  first = first.map( (value, index) => {
+    if (index%2 === 0 ) return value.toUpperCase();
+    return value;
+  })
 
-  let cadena2 = Array.from(s, (item,i) => {
-      if (i%2!==0) {
-          return item.toUpperCase();
-      }
-      return item;
-  }).join("");
+  let second = Array.from(s);
+  second = second.map( (value, index) => {
+    if (index%2 === 1 ) return value.toUpperCase();
+    return value;
+  })
 
-  let resultado = [cadena1, cadena2];
-
-  return resultado;
+  return [first.join(""), second.join("")];
 }
